@@ -730,6 +730,11 @@ a#scrollUp:hover {
 .spacial-img {
     position: relative;
 }
+
+.spacial-img img{
+    height: 482px;
+    object-fit: cover;
+}
 .spacial-wrap {
     padding: 60px 0px 30px;
 }
@@ -2309,6 +2314,20 @@ a.readmore-btn:hover {
 }
 .contact-area #googleMap{
     margin-top: 100px;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 
