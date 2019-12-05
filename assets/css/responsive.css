@@ -592,6 +592,12 @@
     .header-area .logoarea {
         margin-left: 0px;
     }
+    .footer-bootem {
+        margin-top: 601px;
+        padding: 20px 0px;
+        background: rgb(109, 224, 132);
+        text-align: center;
+    }
 }
 
 @media (min-width: 480px) and (max-width: 575px) {
