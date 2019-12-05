@@ -589,9 +589,13 @@
     .contact-form {
         margin-bottom: 50px;
     }
+    .header-area .logoarea {
+        margin-left: 0px;
+    }
 }
 
 @media (min-width: 480px) and (max-width: 575px) {
+
     .container {
         width: 450px;
     }
