@@ -42,6 +42,7 @@
 }
 body {
     font-family: 'Poppins', sans-serif;
+    overflow: auto;
     line-height: 26px;
     color: #333132;
     font-size: 16px;
@@ -57,7 +58,7 @@ img {
     height: auto
 }
 .fix {
-    overflow: hidden
+    overflow: hidden;
 }
 p {
     margin: 0px;
@@ -68,8 +69,13 @@ h3,
 h4,
 h5,
 h6 {
+    color:#402966;
     margin-bottom: 10px;
     margin-top: 0px;
+}
+
+h3{
+    color:black;
 }
 input:focus,
 select:focus {
@@ -90,7 +96,7 @@ a {
     color: #333132;
 }
 a:hover {
-    color: #cee002;
+    color: rgb(109, 224, 132);
 }
 a:active,
 a:hover,
@@ -160,7 +166,7 @@ div {
     margin-bottom: 40px;
 }
 .bg-1 {
-    height: 103px;
+    height: 91px;
     background: white;
 }
 .bg-fff {
@@ -180,16 +186,20 @@ a#scrollUp {
     border-radius: 5px;
 }
 a#scrollUp:hover {
-    background: #cee002;
+    background: rgb(109, 224, 132);
 }
 
 /*--------header-area start---------*/
+.header-area .logoarea{
+    margin-left: -50px;
+}
 .logo {
-    margin: 15px 0px;
+    margin: 9px 0px;
 }
 .mainmenu {
-    padding: 34px 0px;
-    width: 980px;
+    padding: 36px 0px;
+    margin-left: -15px;
+    width: 1065px;
 }
 .mainmenu ul,
 .search-wrapper ul {
@@ -217,7 +227,7 @@ a#scrollUp:hover {
 }
 .mainmenu ul li.active>a,
 .mainmenu ul li:hover>a {
-    background: #cee002;
+    background: rgb(109, 224, 132);
 }
 .mainmenu ul li>ul {
     display: block;
@@ -250,7 +260,7 @@ a#scrollUp:hover {
 }
 .mainmenu ul li>ul li:hover a {
     background: transparent;
-    color: #cee002;
+    color: rgb(109, 224, 132);
     padding-left: 20px;
 }
 .search-wrapper ul li {
@@ -300,7 +310,7 @@ a#scrollUp:hover {
     top: 0;
     width: 45px;
     height: 45px;
-    background: #cee002;
+    background: rgb(109, 224, 132);
     color: #333132;
     border: none;
     cursor: pointer;
@@ -317,6 +327,7 @@ a#scrollUp:hover {
 }
 .responsive-menu-wrap .slicknav_btn {
     background-color: transparent;
+        left: 103px;
     border-radius: 0;
     display: block;
     float: right;
@@ -461,7 +472,7 @@ a#scrollUp:hover {
 }
 .slider-content h2 span.color,
 .slider-content p span {
-    color: #cee002;
+    color: rgb(109, 224, 132);
 }
 .slider-content p {
     color: #fff;
@@ -470,7 +481,7 @@ a#scrollUp:hover {
 }
 .slider-content a {
     font-size: 16px;
-    color: #cee002;
+    color: rgb(109, 224, 132);
     font-weight: 500;
 }
 .slider-text {
@@ -508,7 +519,7 @@ a#scrollUp:hover {
     0% {
         width: 0;
         height: 0;
-        border-top-color: #cee002;
+        border-top-color: rgb(109, 224, 132);
         border-right-color: transparent;
         border-bottom-color: transparent;
         border-left-color: transparent;
@@ -516,16 +527,16 @@ a#scrollUp:hover {
     50% {
         width: 100%;
         height: 0;
-        border-top-color: #cee002;
-        border-right-color: #cee002;
+        border-top-color: rgb(109, 224, 132);
+        border-right-color: rgb(109, 224, 132);
         border-bottom-color: transparent;
         border-left-color: translate;
     }
     100% {
         width: 100%;
         height: 90%;
-        border-top-color: #cee002;
-        border-right-color: #cee002;
+        border-top-color: rgb(109, 224, 132);
+        border-right-color: rgb(109, 224, 132);
         border-bottom-color: transparent;
         border-left-color: translate;
     }
@@ -534,7 +545,7 @@ a#scrollUp:hover {
     0% {
         width: 0;
         height: 0;
-        border-top-color: #cee002;
+        border-top-color: rgb(109, 224, 132);
         border-right-color: transparent;
         border-bottom-color: transparent;
         border-left-color: transparent;
@@ -542,16 +553,16 @@ a#scrollUp:hover {
     50% {
         width: 100%;
         height: 0;
-        border-top-color: #cee002;
-        border-right-color: #cee002;
+        border-top-color: rgb(109, 224, 132);
+        border-right-color: rgb(109, 224, 132);
         border-bottom-color: transparent;
         border-left-color: translate;
     }
     100% {
         width: 100%;
         height: 90%;
-        border-top-color: #cee002;
-        border-right-color: #cee002;
+        border-top-color: rgb(109, 224, 132);
+        border-right-color: rgb(109, 224, 132);
         border-bottom-color: transparent;
         border-left-color: translate;
     }
@@ -570,23 +581,23 @@ a#scrollUp:hover {
         border-top-color: translate;
         border-right-color: translate;
         border-bottom-color: translate;
-        border-left-color: #cee002;
+        border-left-color: rgb(109, 224, 132);
     }
     50% {
         width: 0;
         height: 90%;
         border-top-color: translate;
         border-right-color: translate;
-        border-bottom-color: #cee002;
-        border-left-color: #cee002;
+        border-bottom-color: rgb(109, 224, 132);
+        border-left-color: rgb(109, 224, 132);
     }
     100% {
         width: 100%;
         height: 90%;
         border-top-color: translate;
         border-right-color: translate;
-        border-bottom-color: #cee002;
-        border-left-color: #cee002;
+        border-bottom-color: rgb(109, 224, 132);
+        border-left-color: rgb(109, 224, 132);
     }
 }
 @keyframes animate2 {
@@ -596,23 +607,23 @@ a#scrollUp:hover {
         border-top-color: translate;
         border-right-color: translate;
         border-bottom-color: translate;
-        border-left-color: #cee002;
+        border-left-color: rgb(109, 224, 132);
     }
     50% {
         width: 0;
         height: 90%;
         border-top-color: translate;
         border-right-color: translate;
-        border-bottom-color: #cee002;
-        border-left-color: #cee002;
+        border-bottom-color: rgb(109, 224, 132);
+        border-left-color: rgb(109, 224, 132);
     }
     100% {
         width: 100%;
         height: 90%;
         border-top-color: translate;
         border-right-color: translate;
-        border-bottom-color: #cee002;
-        border-left-color: #cee002;
+        border-bottom-color: rgb(109, 224, 132);
+        border-left-color: rgb(109, 224, 132);
     }
 }
 .next-prev-style .owl-nav div {
@@ -629,7 +640,7 @@ a#scrollUp:hover {
     -moz-transform: translateY(-50%);
 }
 .next-prev-style .owl-nav div:hover {
-    background: #cee002;
+    background: rgb(109, 224, 132);
 }
 .next-prev-style .owl-nav div.owl-next {
     left: auto;
@@ -641,8 +652,8 @@ a#scrollUp:hover {
 .about-wrap {
     position: relative;
     padding: 60px 0px 60px 30px;
-    border-top: 2px solid #cee002;
-    border-left: 2px solid #cee002;
+    border-top: 2px solid rgb(109, 224, 132);
+    border-left: 2px solid rgb(109, 224, 132);
 }
 .about-wrap:before {
     position: absolute;
@@ -651,7 +662,7 @@ a#scrollUp:hover {
     width: 100%;
     height: 2px;
     content: "";
-    background: #cee002;
+    background: rgb(109, 224, 132);
 }
 .about-wrap:after {
     position: absolute;
@@ -659,8 +670,8 @@ a#scrollUp:hover {
     top: -2px;
     width: 100px;
     height: 60px;
-    border-top: 2px solid #cee002;
-    border-right: 2px solid #cee002;
+    border-top: 2px solid rgb(109, 224, 132);
+    border-right: 2px solid rgb(109, 224, 132);
     content: "";
 }
 .about-wrap h2 {
@@ -717,6 +728,7 @@ a#scrollUp:hover {
     margin-bottom: 40px;
 }
 .section-title h2 {
+    color:#402966;
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
@@ -745,7 +757,7 @@ a#scrollUp:hover {
     margin-bottom: 30px;
 }
 .spacial-item:hover {
-    background: #cee002;
+    background: rgb(109, 224, 132);
 }
 .spacial-item span {
     display: block;
@@ -767,7 +779,7 @@ a#scrollUp:hover {
     padding: 120px 0px 90px;
 }
 .project-menu button {
-    border: 1px solid #cee002;
+    border: 1px solid rgb(109, 224, 132);
     padding: 7px 20px;
     background: transparent;
     text-transform: uppercase;
@@ -775,13 +787,16 @@ a#scrollUp:hover {
     cursor: pointer;
 }
 .project-menu button.active {
-    background: #cee002;
+    background: rgb(109, 224, 132);
 }
 .project-wrap {
     position: relative;
     margin-bottom: 30px;
 }
 .project-wrap img {
+    height: 308px;
+    object-fit: cover;
+    display: flex;
     width: 100%;
 }
 .project-wrap:before {
@@ -790,7 +805,7 @@ a#scrollUp:hover {
     top: 0;
     width: 100%;
     height: 100%;
-    background: #cee002;
+    background: rgb(109, 224, 132);
     opacity: .55;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=55)";
     content: "";
@@ -936,7 +951,7 @@ a#scrollUp:hover {
     font-weight: 500;
     text-align: center;
     display: inline-block;
-    background: #cee002;
+    background: rgb(109, 224, 132);
     line-height: 35px;
 }
 .service-content a:hover {
@@ -953,7 +968,7 @@ a#scrollUp:hover {
     text-align: center;
 }
 .funfact-wrap h2 {
-    color: #cee002;
+    color: rgb(109, 224, 132);
     font-size: 72px;
     margin: 0px auto 20px;
     line-height: 51px;
@@ -983,7 +998,7 @@ a#scrollUp:hover {
     top: 0;
     width: 100%;
     height: 100%;
-    background: #cee002;
+    background: rgb(109, 224, 132);
     content: "";
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -1044,7 +1059,7 @@ a#scrollUp:hover {
     outline: none;
 }
 .test-wrap i {
-    color: #cee002;
+    color: rgb(109, 224, 132);
     font-size: 36px;
     margin-bottom: 25px;
     margin-left: 1px;
@@ -1062,7 +1077,7 @@ a#scrollUp:hover {
 .test-wrap span {
     display: block;
     font-size: 14px;
-    color: #cee002;
+    color: rgb(109, 224, 132);
 }
 .test-img-active {
     padding: 60px 30px 0px 0px;
@@ -1075,7 +1090,7 @@ a#scrollUp:hover {
     top: 0;
     width: 85%;
     height: 95%;
-    border: 3px solid #cee002;
+    border: 3px solid rgb(109, 224, 132);
     content: "";
     z-index: -9;
 }
@@ -1110,7 +1125,7 @@ a#scrollUp:hover {
     height: 110px;
     width: 110px;
     border-radius: 50%;
-    border: 3px solid #cee002;
+    border: 3px solid rgb(109, 224, 132);
     left: 0px;
     bottom: 80px;
     position: absolute;
@@ -1134,7 +1149,7 @@ ul.slick-dots {
     border: none;
 }
 .slick-dots li.slick-active button {
-    background: #cee002;
+    background: rgb(109, 224, 132);
 }
 /*--------testmonial-area end---------*/
 
@@ -1191,7 +1206,7 @@ ul.slick-dots {
     line-height: 28px;
     font-size: 18px;
     font-weight: 700;
-    border-bottom: 1px solid #cee002;
+    border-bottom: 1px solid rgb(109, 224, 132);
     padding-bottom: 10px;
     margin: 10px 0px 20px;
 }
@@ -1209,7 +1224,7 @@ ul.slick-dots {
 #googleMap {
     width: 100%;
     height: 450px;
-    background: #cee002;
+    background: rgb(109, 224, 132);
 }
 /*--------footer-area start---------*/
 .footer-top {
@@ -1252,7 +1267,7 @@ ul.slick-dots {
     top: 5px;
     width: 5px;
     height: 12px;
-    background: #cee002;
+    background: rgb(109, 224, 132);
     content: "";
 }
 .footer-contact ul li {
@@ -1266,7 +1281,7 @@ ul.slick-dots {
     height: 25px;
     width: 25px;
     font-size: 14px;
-    border: 1px solid #cee002;
+    border: 1px solid rgb(109, 224, 132);
     text-align: center;
     line-height: 24px;
     position: absolute;
@@ -1293,7 +1308,7 @@ ul.slick-dots {
 }
 .footer-menu ul li:hover:before {
     left: 5px;
-    color: #cee002;
+    color: rgb(109, 224, 132);
 }
 .newsletter p {
     margin-bottom: 20px;
@@ -1314,7 +1329,7 @@ ul.slick-dots {
     text-transform: uppercase;
     font-size: 14px;
     border: none;
-    background: #cee002;
+    background: rgb(109, 224, 132);
     cursor: pointer;
     border-radius: 3px;
 }
@@ -1325,7 +1340,7 @@ ul.slick-dots {
 .footer-bootem {
     margin-top: 223px;
     padding: 20px 0px;
-    background: #cee002;
+    background: rgb(109, 224, 132);
     text-align: center;
 }
 /*--------footer-area end---------*/
@@ -1351,7 +1366,7 @@ a.readmore-btn {
     padding: 12px 30px;
     text-transform: uppercase;
     font-size: 14px;
-    background: #cee002;
+    background: rgb(109, 224, 132);
     font-weight: 700;
 }
 a.readmore-btn:hover {
@@ -1359,10 +1374,10 @@ a.readmore-btn:hover {
     color: #fff;
 }
 .about-area2 .about-wrap {
-    padding: 80px 0px 80px 30px;
-    border-top: 2px solid #cee002;
+    padding: 50px 12px 1px 30px;
+    border-top: 2px solid rgb(109, 224, 132);
     border-left: none;
-    border-right: 2px solid #cee002;
+    border-right: 2px solid rgb(109, 224, 132);
 }
 .about-area2 .about-img2 {
     position: relative;
@@ -1372,8 +1387,8 @@ a.readmore-btn:hover {
     position: absolute;
     right: 0;
     bottom: 0;
-    border-left: 3px solid #cee002;
-    border-top: 3px solid #cee002;
+    border-left: 3px solid rgb(109, 224, 132);
+    border-top: 3px solid rgb(109, 224, 132);
 }
 .about-area2 .about-images a {
     position: absolute;
@@ -1384,7 +1399,7 @@ a.readmore-btn:hover {
     text-align: center;
     display: block;
     left: 50%;
-    border: 2px solid #cee002;
+    border: 2px solid rgb(109, 224, 132);
     top: 50%;
     border-radius: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -1395,7 +1410,7 @@ a.readmore-btn:hover {
 /*---------quote-area start---------*/
 .quote-area {
     padding: 50px 0px;
-    background: #cee002;
+    background: rgb(109, 224, 132);
 }
 .quote-wrap h2 {
     font-size: 24px;
@@ -1419,7 +1434,7 @@ a.readmore-btn:hover {
 
 /*---------interior-area start---------*/
 .interior-area {
-    background: #cee002;
+    background: rgb(109, 224, 132);
     position: relative;
     padding: 130px 0px;
     overflow: hidden;
@@ -1460,13 +1475,13 @@ a.readmore-btn:hover {
     width: 110px;
     height: 110px;
     border-radius: 50%;
-    border: 3px solid #cee002;
+    border: 3px solid rgb(109, 224, 132);
     margin: 0px auto 30px;
     overflow: hidden;
 }
 .test-wrap2 i {
     font-size: 36px;
-    color: #cee002;
+    color: rgb(109, 224, 132);
     margin-bottom: 20px;
     display: block;
 }
@@ -1497,7 +1512,7 @@ a.readmore-btn:hover {
     font-size: 20px;
 }
 .test-active .owl-nav div:hover {
-    color: #cee002;
+    color: rgb(109, 224, 132);
 }
 .test-active .owl-nav div.owl-next {
     left: auto;
@@ -1519,7 +1534,7 @@ a.readmore-btn:hover {
     border-radius: 50%;
 }
 .test-active .owl-dot.active {
-    background: #cee002;
+    background: rgb(109, 224, 132);
 }
 /*------testimonial------*/
 
@@ -1587,7 +1602,7 @@ a.readmore-btn:hover {
     color: #fff;
 }
 .blog-content2 h4 a:hover {
-    color: #cee002;
+    color: rgb(109, 224, 132);
 }
 .blog-content2 p {
     margin-bottom: 20px;
@@ -1599,7 +1614,7 @@ a.readmore-btn:hover {
 }
 .blog-content2 a.readmore {
     text-decoration: underline;
-    color: #cee002;
+    color: rgb(109, 224, 132);
     display: inline-block;
     transition: all .3s;
     -webkit-transition: all .3s;
@@ -1625,7 +1640,7 @@ a.readmore-btn:hover {
     0% {
         width: 0;
         height: 0;
-        border-top-color: #cee002;
+        border-top-color: rgb(109, 224, 132);
         border-right-color: transparent;
         border-bottom-color: transparent;
         border-left-color: transparent;
@@ -1633,16 +1648,16 @@ a.readmore-btn:hover {
     50% {
         width: 100%;
         height: 0;
-        border-top-color: #cee002;
-        border-right-color: #cee002;
+        border-top-color: rgb(109, 224, 132);
+        border-right-color: rgb(109, 224, 132);
         border-bottom-color: transparent;
         border-left-color: translate;
     }
     100% {
         width: 100%;
         height: 100%;
-        border-top-color: #cee002;
-        border-right-color: #cee002;
+        border-top-color: rgb(109, 224, 132);
+        border-right-color: rgb(109, 224, 132);
         border-bottom-color: transparent;
         border-left-color: translate;
     }
@@ -1651,7 +1666,7 @@ a.readmore-btn:hover {
     0% {
         width: 0;
         height: 0;
-        border-top-color: #cee002;
+        border-top-color: rgb(109, 224, 132);
         border-right-color: transparent;
         border-bottom-color: transparent;
         border-left-color: transparent;
@@ -1659,16 +1674,16 @@ a.readmore-btn:hover {
     50% {
         width: 100%;
         height: 0;
-        border-top-color: #cee002;
-        border-right-color: #cee002;
+        border-top-color: rgb(109, 224, 132);
+        border-right-color: rgb(109, 224, 132);
         border-bottom-color: transparent;
         border-left-color: translate;
     }
     100% {
         width: 100%;
         height: 100%;
-        border-top-color: #cee002;
-        border-right-color: #cee002;
+        border-top-color: rgb(109, 224, 132);
+        border-right-color: rgb(109, 224, 132);
         border-bottom-color: transparent;
         border-left-color: translate;
     }
@@ -1686,23 +1701,23 @@ a.readmore-btn:hover {
         border-top-color: translate;
         border-right-color: translate;
         border-left-color: translate;
-        border-bottom-color: #cee002;
+        border-bottom-color: rgb(109, 224, 132);
     }
     50% {
         width: 0;
         height: 100%;
         border-top-color: translate;
         border-right-color: translate;
-        border-left-color: #cee002;
-        border-bottom-color: #cee002;
+        border-left-color: rgb(109, 224, 132);
+        border-bottom-color: rgb(109, 224, 132);
     }
     100% {
         width: 100%;
         height: 100%;
         border-top-color: translate;
         border-right-color: translate;
-        border-left-color: #cee002;
-        border-bottom-color: #cee002;
+        border-left-color: rgb(109, 224, 132);
+        border-bottom-color: rgb(109, 224, 132);
     }
 }
 @keyframes animate4 {
@@ -1712,23 +1727,23 @@ a.readmore-btn:hover {
         border-top-color: translate;
         border-right-color: translate;
         border-left-color: translate;
-        border-bottom-color: #cee002;
+        border-bottom-color: rgb(109, 224, 132);
     }
     50% {
         width: 0;
         height: 100%;
         border-top-color: translate;
         border-right-color: translate;
-        border-left-color: #cee002;
-        border-bottom-color: #cee002;
+        border-left-color: rgb(109, 224, 132);
+        border-bottom-color: rgb(109, 224, 132);
     }
     100% {
         width: 100%;
         height: 100%;
         border-top-color: translate;
         border-right-color: translate;
-        border-left-color: #cee002;
-        border-bottom-color: #cee002;
+        border-left-color: rgb(109, 224, 132);
+        border-bottom-color: rgb(109, 224, 132);
     }
 }
 /*-------blog-------*/
@@ -1784,7 +1799,7 @@ a.readmore-btn:hover {
     cursor: pointer;
 }
 .about-img-active i.slick-arrow:hover {
-    background: #cee002;
+    background: rgb(109, 224, 132);
 }
 .about-img-active i.slick-arrow.fa-chevron-left {
     right: 40px;
@@ -1825,7 +1840,7 @@ a.readmore-btn:hover {
 .skill-wrap .progress-bar {
     position: relative;
     border-radius: 5px;
-    background: #cee002;
+    background: rgb(109, 224, 132);
 }
 .skill-wrap .progress-bar:before {
     position: absolute;
@@ -1833,7 +1848,7 @@ a.readmore-btn:hover {
     top: -5px;
     width: 20px;
     height: 20px;
-    background: #cee002;
+    background: rgb(109, 224, 132);
     content: "";
     z-index: 9;
     border: 2px solid #323131;
@@ -1870,7 +1885,7 @@ a.readmore-btn:hover {
     padding: 100px 0px;
 }
 .newsletter-area.black-opacity:before {
-    background: #cee002;
+    background: rgb(109, 224, 132);
     opacity: .8;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
@@ -1902,7 +1917,7 @@ a.readmore-btn:hover {
     border-bottom-right-radius: 25px;
 }
 .newsletter-wrap button:hover {
-    background: #cee002;
+    background: rgb(109, 224, 132);
     color: #323131;
 }
 /*newsletter-area*/
@@ -1931,7 +1946,7 @@ a.readmore-btn:hover {
     text-transform: uppercase;
     font-size: 35px;
     font-weight: 700;
-    color: #cee002;
+    color: rgb(109, 224, 132);
     margin-bottom: 5px;
 }
 .breadcumb-wrap ul li {
@@ -1945,7 +1960,7 @@ a.readmore-btn:hover {
     color: #fff;
 }
 .breadcumb-wrap ul li a:hover {
-    color: #cee002;
+    color: rgb(109, 224, 132);
 }
 /*--------breadcumb-area end--------*/
 /*about*/
@@ -1971,7 +1986,7 @@ a.readmore-btn:hover {
     content: "";
 }
 .about-page-wrap ul:hover:before {
-    background: #cee002;
+    background: rgb(109, 224, 132);
 }
 .about-page-wrap ul li a {
     display: block;
@@ -1989,7 +2004,7 @@ a.readmore-btn:hover {
     -moz-transform: translateY(-50%);
     border-style: solid;
     border-width: 8px;
-    border-color: transparent transparent transparent #cee002;
+    border-color: transparent transparent transparent rgb(109, 224, 132);
     content: "";
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -2051,7 +2066,7 @@ a.readmore-btn:hover {
     -moz-transform: translate(-50%, -50%);
 }
 .about-sidebar-img a:hover {
-    background: #cee002;
+    background: rgb(109, 224, 132);
     color: #393939;
 }
 /*about*/
@@ -2081,7 +2096,7 @@ a.readmore-btn:hover {
 }
 .pagination-wrap ul li span,
 .pagination-wrap ul li:hover a {
-    background: #cee002;
+    background: rgb(109, 224, 132);
     color: #333132;
 }
 /*-------------------------sidebar-area start-------------------------*/
@@ -2113,7 +2128,7 @@ a.readmore-btn:hover {
 }
 .search-wrap button:hover {
     color: #333132;
-    background: #cee002;
+    background: rgb(109, 224, 132);
 }
 .search-wrap input::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
@@ -2204,8 +2219,8 @@ a.readmore-btn:hover {
 }
 .tag-wrap ul li a:hover {
     color: #393939;
-    background: #cee002;
-    border-color: #cee002;
+    background: rgb(109, 224, 132);
+    border-color: rgb(109, 224, 132);
 }
 .tag-wrap {
     margin-bottom: 0px;
@@ -2223,14 +2238,14 @@ a.readmore-btn:hover {
     font-size: 16px;
     font-style: italic;
     margin: 40px 0;
-    border-left: 10px solid #cee002;
+    border-left: 10px solid rgb(109, 224, 132);
 }
 .socila-link {
     margin-bottom: 100px;
 }
 .socila-link ul li {
     display: inline-block;
-    color: #cee002;
+    color: rgb(109, 224, 132);
 }
 .socila-link ul li a {
     font-size: 16px;
@@ -2264,7 +2279,7 @@ a.readmore-btn:hover {
 .blog-form button,
 .contact-form button {
     padding: 10px 30px;
-    background: #cee002;
+    background: rgb(109, 224, 132);
     color: #363636;
     text-transform: uppercase;
     font-size: 14px;
@@ -2276,7 +2291,7 @@ a.readmore-btn:hover {
 .blog-form button:hover,
 .contact-form button:hover {
     background: #222;
-    color: #cee002;
+    color: rgb(109, 224, 132);
 }
 .contact-form textarea{
   height: 270px;
@@ -2287,7 +2302,7 @@ a.readmore-btn:hover {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
-  background: #cee002;
+  background: rgb(109, 224, 132);
   margin-bottom: 25px;
   border-radius: 5px;
 }
